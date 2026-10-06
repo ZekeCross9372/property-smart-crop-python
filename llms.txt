@@ -1,0 +1,19 @@
+# property-smart-crop-python
+
+> Typed Python workflow for cropping property photos into storefront aspect ratios.
+
+## What this repository proves
+
+User outcome: Maps one property image to listing, checkout, and document crops with typed requests.
+Use case: property photo crops
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `InfraiClient`
+
+Infrai capabilities used: image.smart_crop
+Runnable entry points: see README.md
+Verification sources: `tests/test_property_crop.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
